@@ -1,8 +1,10 @@
 # BookLore on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/LcclVg?referralCode=matt)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/booklore?referralCode=matt&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
 One-click deploy of [BookLore](https://github.com/booklore-app/booklore) – a self-hosted book and audiobook manager with metadata fetching, reading progress tracking, and library organisation.
+
+Looking for the community-maintained fork? Deploy the [Grimmory Railway template](https://github.com/matthewspear/grimmory-railway).
 
 ## What's Included
 
