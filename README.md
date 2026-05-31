@@ -6,7 +6,7 @@ One-click deploy of [BookLore](https://github.com/booklore-app/booklore) – a s
 
 ## What's Included
 
-- **BookLore** – latest version, auto-updates with `:latest` tag
+- **BookLore** – latest version from GitHub Container Registry
 - **MariaDB** – persistent database for your library metadata
 - **Persistent volume** – your books and app data survive redeploys
 
@@ -32,7 +32,7 @@ When creating a library, you'll be asked to add book directories:
 
 | Service | Image | Purpose |
 |---------|-------|---------|
-| BookLore | `booklore/booklore:latest` | App server (port 6060) |
+| BookLore | `ghcr.io/booklore-app/booklore:latest` | App server (port 6060) |
 | MariaDB | `mariadb:latest` | Database |
 
 ### Volume Layout

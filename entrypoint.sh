@@ -19,5 +19,5 @@ ln -sf /booklore-data/books /books
 mkdir -p /bookdrop
 chown ${USER_ID:-1000}:${GROUP_ID:-1000} /bookdrop
 
-# Hand off to original entrypoint
-exec /__cacert_entrypoint.sh /start.sh
+# Hand off to the base image entrypoint with its inherited CMD.
+exec /usr/local/bin/entrypoint.sh "$@"
